@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { useParams } from "react-router-dom";
 const SavedList = (props) => {
   return (
     <div className="saved-list">
