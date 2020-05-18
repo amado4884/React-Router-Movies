@@ -25,7 +25,7 @@ const App = () => {
   }, []);
 
   const addToSavedList = (movie) => {
-    setSavedList([...savedList, movie]);
+    if (!savedList.includes(movie)) setSavedList([...savedList, movie]);
   };
 
   return (
